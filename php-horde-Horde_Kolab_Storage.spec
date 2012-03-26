@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - A package for handling Kolab data stored on an IMAP server
 Name:		php-horde-Horde_Kolab_Storage
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	f0ec6057e6262b371b63c2b7ea51af2b
+# Source0-md5:	262a185b6e05e3303193092d91e03496
 URL:		https://github.com/horde/horde/tree/master/framework/Kolab_Storage/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -26,6 +26,7 @@ Requires:	php-horde-Horde_Support < 2.0.0
 Requires:	php-horde-Horde_Translation < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear
+Suggests:	php-horde-Horde_History
 Suggests:	php-horde-Horde_Imap_Client
 Suggests:	php-imap
 Suggests:	php-pear-HTTP_Request
