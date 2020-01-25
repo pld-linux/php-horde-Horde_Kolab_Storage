@@ -2,7 +2,6 @@
 # - system locale dir
 %define		status		stable
 %define		pearname	Horde_Kolab_Storage
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - A package for handling Kolab data stored on an IMAP server
 Name:		php-horde-Horde_Kolab_Storage
 Version:	1.1.0
